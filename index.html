@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jeustin Palma — Tatuador en Costa Rica | Realismo y black &amp; grey</title>
+<meta name="description" content="Jeustin Palma Chacón, tatuador en San Pedro, San José. Realismo, black &amp; grey, retrato a color, gran formato y cover-up. Mirá los trabajos y reservá tu cita por WhatsApp.">
+<meta name="theme-color" content="#0A0A0B">
+<meta name="author" content="Jeustin Palma Chacón">
+<link rel="canonical" href="./">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jeustin Palma — Tatuador en Costa Rica">
+<meta property="og:description" content="Realismo y black &amp; grey, hecho en Costa Rica. Tinta que aguanta el tiempo.">
+<meta property="og:image" content="assets/img/jeustin-retrato.jpg">
+<meta property="og:locale" content="es_CR">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0A0B'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='34' font-style='italic' fill='%237B3FE4' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/kanit-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/spacegrotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/jeustin-retrato.jpg" as="image">
+<link rel="stylesheet" href="styles.css?v=20260831">
+</head>
+<body>
+
+<!-- ══════════ CARGA ══════════ -->
+<div class="splash" id="splash" aria-hidden="true">
+  <div class="splash__inner">
+    <p class="splash__logo"><span class="splash__wipe">Jeustin <em>Palma</em></span></p>
+    <div class="splash__bar"><span></span></div>
+    <div class="splash__foot">
+      <p class="splash__meta">TATUADOR · COSTA RICA</p>
+      <p class="splash__pct" id="splashPct">0</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ CAPAS ══════════ -->
+<!-- Fondo ambiental: dos halos de amatista que se desplazan muy despacio -->
+<div class="ambiente" aria-hidden="true"><span></span><span></span></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true">
+  <span class="cursor__dot"></span>
+  <span class="cursor__ring"></span>
+  <span class="cursor__label">Ver</span>
+</div>
+<div class="scrollbar" id="scrollbar" aria-hidden="true"></div>
+
+<a class="skip" href="#artista">Saltar al contenido</a>
+
+<!-- ══════════ RIEL LATERAL (escritorio) ══════════ -->
+<aside class="rail">
+  <a class="rail__brand" href="#inicio" aria-label="Jeustin Palma, inicio">Jeustin <em>Palma</em></a>
+
+  <nav class="rail__nav" aria-label="Principal">
+    <a href="#artista"><i>01</i><span>Artista</span></a>
+    <a href="#estilos"><i>02</i><span>Estilos</span></a>
+    <a href="#trabajos"><i>03</i><span>Trabajos</span></a>
+    <a href="#videos"><i>04</i><span>Videos</span></a>
+    <a href="#trayectoria"><i>05</i><span>Trayectoria</span></a>
+    <a href="#cita"><i>06</i><span>Tu cita</span></a>
+    <a href="#contacto"><i>07</i><span>Contacto</span></a>
+  </nav>
+
+  <a class="rail__ig" href="https://www.instagram.com/jeustinpalmart/" target="_blank" rel="noopener">IG</a>
+</aside>
+
+<!-- ══════════ BARRA SUPERIOR (móvil) ══════════ -->
+<header class="topbar" id="topbar">
+  <a class="topbar__brand" href="#inicio">Jeustin <em>Palma</em></a>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__list" aria-label="Menú">
+    <a href="#artista"><i>01</i> Artista</a>
+    <a href="#estilos"><i>02</i> Estilos</a>
+    <a href="#trabajos"><i>03</i> Trabajos</a>
+    <a href="#videos"><i>04</i> Videos</a>
+    <a href="#trayectoria"><i>05</i> Trayectoria</a>
+    <a href="#cita"><i>06</i> Tu cita</a>
+    <a href="#contacto"><i>07</i> Contacto</a>
+  </nav>
+  <div class="menu__foot">
+    <a data-wa href="#">WhatsApp · 6146 1066</a>
+    <a href="https://www.instagram.com/jeustinpalmart/" target="_blank" rel="noopener">@jeustinpalmart</a>
+  </div>
+</div>
+
+<main class="shell">
+
+<!-- ══════════ PORTADA ══════════
+     Foto a pantalla completa, difuminada hacia el negro, con el
+     texto encima. -->
+<section class="hero" id="inicio">
+  <div class="hero__copy">
+    <p class="hero__eyebrow"><span class="dot"></span> San Pedro, San José · Costa Rica</p>
+
+    <h1 class="hero__name">
+      Realismo<br>
+      <em>que aguanta</em><br>
+      el tiempo.
+    </h1>
+
+    <p class="hero__tag">Soy Jeustin Palma. Tatúo realismo y black &amp; grey en Costa Rica: luz, sombra y textura que se leen de lejos y de cerca.</p>
+
+    <div class="hero__actions">
+      <a class="btn btn--solid" data-wa href="#contacto" data-magnetic>Reservar cita<em>&#8599;</em></a>
+      <a class="btn btn--ghost" href="#trabajos" data-magnetic>Ver trabajos</a>
+    </div>
+
+    <div class="hero__stats">
+      <div class="hero__stat"><b>[00]+</b><span>Años tatuando</span></div>
+      <div class="hero__stat"><b>[000]+</b><span>Piezas realizadas</span></div>
+      <div class="hero__stat"><b>12,7&nbsp;mil</b><span>Seguidores en Instagram</span></div>
+    </div>
+  </div>
+
+  <!-- La foto ocupa la mitad derecha a toda altura y se difumina hacia el
+       texto. A media pantalla se agranda 1,3x; a sangre completa era 2,5x
+       y por eso se veía blanda. -->
+  <div class="hero__media">
+    <img src="assets/img/trabajo-04.jpg" alt="Jeustin Palma tatuando en su estudio" width="560" height="839" fetchpriority="high" data-parallax="0.03">
+  </div>
+
+
+
+  <div class="hero__scroll" aria-hidden="true"><span></span>Desliza</div>
+</section>
+
+<!-- ══════════ ARTISTA ══════════ -->
+<section class="section artist" id="artista">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">01</span>
+      <h2 class="head__t" data-split>El artista</h2>
+    </header>
+
+    <div class="artist__grid">
+      <div class="artist__text">
+        <p class="lead reveal">Realismo que aguanta de lejos y de cerca.</p>
+        <div class="prose reveal">
+          <p>Soy <strong>Jeustin Palma Chacón</strong> y tatúo realismo y black &amp; grey en Costa Rica. Cada pieza arranca con una conversación: qué querés, dónde va y cuánto aguanta tu piel.</p>
+          <p>Después dibujo, ajustamos juntos y hasta entonces agarro la máquina. Nada entra en piel sin que los dos estemos seguros del diseño.</p>
+          <p>[Contame acá cómo empezaste, con quién te formaste y qué te gusta tatuar. Dos o tres líneas bastan.]</p>
+        </div>
+        <a class="link-arrow reveal" href="#trabajos" data-magnetic>Ver trabajos <em>&#8599;</em></a>
+      </div>
+
+      <figure class="artist__media">
+        <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:760/1139">
+        <img src="assets/img/jeustin-retrato.jpg" alt="Jeustin Palma en su estudio" width="760" height="1139" loading="lazy" data-parallax="0.04">
+        </div>
+        <figcaption>En cabina — San Pedro, San José</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MARQUESINA ══════════
+     Dos filas que se mueven solas en sentidos opuestos.
+     El scroll las empuja; al parar, siguen andando. -->
+<section class="mq" aria-hidden="true" data-mq>
+  <div class="mq__row" data-mq-row data-dir="1">
+    <img class="mq__tile" src="assets/img/odin-brazo.jpg" alt="" width="1440" height="1910" loading="lazy">
+    <img class="mq__tile" src="assets/img/retrato-color.jpg" alt="" width="1440" height="1800" loading="lazy">
+    <img class="mq__tile" src="assets/img/mascara-torso.jpg" alt="" width="1440" height="1440" loading="lazy">
+    <img class="mq__tile" src="assets/img/caballo-brazo.jpg" alt="" width="1440" height="1440" loading="lazy">
+    <img class="mq__tile" src="assets/img/reloj-brazo.jpg" alt="" width="1440" height="1920" loading="lazy">
+  </div>
+  <div class="mq__row mq__row--b" data-mq-row data-dir="-1">
+    <img class="mq__tile" src="assets/img/avion-espalda.jpg" alt="" width="1440" height="1477" loading="lazy">
+    <img class="mq__tile" src="assets/img/geisha-pierna.jpg" alt="" width="1440" height="1440" loading="lazy">
+    <img class="mq__tile" src="assets/img/odin-detalle.jpg" alt="" width="1440" height="1910" loading="lazy">
+    <img class="mq__tile" src="assets/img/retrato-color.jpg" alt="" width="1440" height="1800" loading="lazy">
+    <img class="mq__tile" src="assets/img/mascara-torso.jpg" alt="" width="1440" height="1440" loading="lazy">
+  </div>
+</section>
+
+<!-- ══════════ ESTILOS ══════════
+     Un bloque por estilo, con una pieza real de ese estilo. -->
+<section class="section styles" id="estilos">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">02</span>
+      <h2 class="head__t" data-split>Estilos</h2>
+    </header>
+
+    <div class="styles__list">
+
+      <article class="style">
+        <div class="style__media">
+          <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:1440/1910">
+            <img src="assets/img/odin-brazo.jpg" alt="Brazo completo en realismo: rostro de anciano con báculo, black and grey" width="1440" height="1910" loading="lazy" data-parallax="0.03">
+          </div>
+        </div>
+        <div class="style__text reveal">
+          <span class="style__n">01</span>
+          <h3 class="style__t">Realismo</h3>
+          <p class="style__d">Retratos y figuras con volumen real: luz, sombra y textura trabajadas para que la pieza se lea de lejos y aguante el detalle de cerca. Es donde más me meto.</p>
+          <span class="style__p">Desde [₡000.000]</span>
+          <a class="link-arrow" data-wa href="#contacto" data-magnetic>Consultar <em>&#8599;</em></a>
+        </div>
+      </article>
+
+      <article class="style">
+        <div class="style__media">
+          <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:1440/1440">
+            <img src="assets/img/caballo-brazo.jpg" alt="Antebrazo en black and grey: caballo al galope y un niño de espaldas" width="1440" height="1440" loading="lazy" data-parallax="0.03">
+          </div>
+        </div>
+        <div class="style__text reveal">
+          <span class="style__n">02</span>
+          <h3 class="style__t">Black &amp; grey</h3>
+          <p class="style__d">Solo negro y sus grises. Contraste limpio, degradados largos y formas que envejecen bien. Si querés algo que aguante décadas, es por acá.</p>
+          <span class="style__p">Desde [₡000.000]</span>
+          <a class="link-arrow" data-wa href="#contacto" data-magnetic>Consultar <em>&#8599;</em></a>
+        </div>
+      </article>
+
+      <article class="style">
+        <div class="style__media">
+          <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:1440/1800">
+            <img src="assets/img/retrato-color.jpg" alt="Antebrazo a color: retrato realista de una mujer mayor con pañuelo rojo" width="1440" height="1800" loading="lazy" data-parallax="0.03">
+          </div>
+        </div>
+        <div class="style__text reveal">
+          <span class="style__n">03</span>
+          <h3 class="style__t">Retrato a color</h3>
+          <p class="style__d">Piel, mirada y tela con color real. Necesito una foto con buena luz y de frente; con eso se saca el parecido y se planea la paleta.</p>
+          <span class="style__p">Desde [₡000.000]</span>
+          <a class="link-arrow" data-wa href="#contacto" data-magnetic>Consultar <em>&#8599;</em></a>
+        </div>
+      </article>
+
+      <article class="style">
+        <div class="style__media">
+          <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:1440/1477">
+            <img src="assets/img/avion-espalda.jpg" alt="Espalda completa: avión entre nubes con la leyenda Crazy bird" width="1440" height="1477" loading="lazy" data-parallax="0.03">
+          </div>
+        </div>
+        <div class="style__text reveal">
+          <span class="style__n">04</span>
+          <h3 class="style__t">Gran formato</h3>
+          <p class="style__d">Brazos, espaldas y torsos completos. Se planea por sesiones y se dibuja pensando en el cuerpo entero, siguiendo el músculo, no en un parche suelto.</p>
+          <span class="style__p">Desde [₡000.000] por sesión</span>
+          <a class="link-arrow" data-wa href="#contacto" data-magnetic>Consultar <em>&#8599;</em></a>
+        </div>
+      </article>
+
+      <article class="style">
+        <div class="style__media">
+          <div class="frame reveal reveal--curtain reveal--zoom" style="--ar:1440/1440">
+            <img src="assets/img/mascara-torso.jpg" alt="Torso completo: máscara japonesa con calaveras y llamas en black and grey" width="1440" height="1440" loading="lazy" data-parallax="0.03">
+          </div>
+        </div>
+        <div class="style__text reveal">
+          <span class="style__n">05</span>
+          <h3 class="style__t">Japonés y ornamental</h3>
+          <p class="style__d">Máscaras, olas y filigrana. Negro sólido, formas grandes y un trazo que se lee a distancia. Otro registro, la misma mano.</p>
+          <span class="style__p">Desde [₡000.000]</span>
+          <a class="link-arrow" data-wa href="#contacto" data-magnetic>Consultar <em>&#8599;</em></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FRASE ══════════ -->
+<section class="quote" aria-label="Frase">
+  <div class="wrap">
+    <blockquote class="quote__text reveal" data-split>Tinta que aguanta el tiempo.</blockquote>
+    <p class="quote__by reveal">Jeustin Palma — Costa Rica</p>
+  </div>
+</section>
+
+<!-- ══════════ TRABAJOS ══════════
+     Carrusel horizontal: se arrastra con el ratón o el dedo. -->
+<section class="section works" id="trabajos">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">03</span>
+      <h2 class="head__t" data-split>Trabajos</h2>
+    </header>
+    <p class="works__hint reveal">Arrastrá para ver más — tocá una foto para ampliarla.</p>
+  </div>
+
+  <div class="carousel__ctrl">
+    <button class="carousel__btn" data-carousel-prev aria-label="Anterior">&#8249;</button>
+    <button class="carousel__btn" data-carousel-next aria-label="Siguiente">&#8250;</button>
+  </div>
+
+  <div class="carousel" data-carousel>
+    <div class="carousel__track" data-carousel-track>
+      <button class="shot" data-full="assets/img/odin-brazo.jpg" data-cap="Realismo — brazo completo"><img src="assets/img/odin-brazo.jpg" alt="Brazo completo en realismo: rostro de anciano con báculo" width="1440" height="1910" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/odin-detalle.jpg" data-cap="Detalle del báculo"><img src="assets/img/odin-detalle.jpg" alt="Detalle del báculo ornamental del brazo en realismo" width="1440" height="1910" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/retrato-color.jpg" data-cap="Retrato a color"><img src="assets/img/retrato-color.jpg" alt="Retrato realista a color de una mujer mayor con pañuelo rojo" width="1440" height="1800" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/avion-espalda.jpg" data-cap="Gran formato — espalda"><img src="assets/img/avion-espalda.jpg" alt="Espalda completa: avión entre nubes con la leyenda Crazy bird" width="1440" height="1477" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/mascara-torso.jpg" data-cap="Japonés — torso completo"><img src="assets/img/mascara-torso.jpg" alt="Torso completo: máscara japonesa con calaveras y llamas" width="1440" height="1440" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/reloj-brazo.jpg" data-cap="Realismo — reloj y escarabajo"><img src="assets/img/reloj-brazo.jpg" alt="Brazo completo: reloj de bolsillo, calaveras y un escarabajo clásico" width="1440" height="1920" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/caballo-brazo.jpg" data-cap="Black &amp; grey — caballo"><img src="assets/img/caballo-brazo.jpg" alt="Antebrazo en black and grey: caballo al galope y un niño de espaldas" width="1440" height="1440" loading="lazy"></button>
+      <button class="shot" data-full="assets/img/geisha-pierna.jpg" data-cap="Retrato ilustrado"><img src="assets/img/geisha-pierna.jpg" alt="Pierna: retrato ilustrado de una niña con peinado tradicional" width="1440" height="1440" loading="lazy"></button>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="carousel__bar" aria-hidden="true"><span data-carousel-bar></span></div>
+
+    <!-- De la referencia a la piel: la foto del cliente y la pieza terminada -->
+    <div class="pareja">
+      <p class="pareja__title reveal">De la referencia a la piel</p>
+      <div class="pareja__grid">
+        <figure class="pareja__item reveal">
+          <div class="frame reveal reveal--curtain" style="--ar:1440/1477"><img src="assets/img/avion-referencia.jpg" alt="Avión rojo con la leyenda Crazy bird, la referencia del cliente" width="1440" height="1477" loading="lazy"></div>
+          <figcaption>Su avión — la referencia</figcaption>
+        </figure>
+        <figure class="pareja__item reveal">
+          <div class="frame reveal reveal--curtain" style="--ar:1440/1477"><img src="assets/img/avion-espalda.jpg" alt="Espalda completa con el avión tatuado entre nubes" width="1440" height="1477" loading="lazy"></div>
+          <figcaption>La espalda — la pieza</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <p class="works__note reveal">Más piezas en <a href="https://www.instagram.com/jeustinpalmart/" target="_blank" rel="noopener">@jeustinpalmart</a>.</p>
+  </div>
+</section>
+
+<!-- ══════════ EN MOVIMIENTO (VIDEOS) ══════════
+     Los archivos van en assets/video/ con estos nombres: video-01.mp4,
+     video-02.mp4, video-03.mp4. Mientras no estén, se ve la foto de
+     portada de cada uno (el atributo poster) y no se rompe nada. -->
+<section class="section reels" id="videos">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">04</span>
+      <h2 class="head__t" data-split>En movimiento</h2>
+    </header>
+    <p class="reels__hint reveal">La aguja, el trazo y la sesión. Tocá para reproducir.</p>
+
+    <div class="reels__grid">
+
+      <figure class="reel reveal" data-reel>
+        <video class="reel__video" poster="assets/img/odin-brazo.jpg" muted loop playsinline preload="none">
+          <source src="assets/video/video-01.mp4" type="video/mp4">
+        </video>
+        <button class="reel__play" type="button" aria-label="Reproducir video">
+          <span class="reel__triangle"></span>
+        </button>
+        <figcaption class="reel__cap">Realismo — sesión de brazo</figcaption>
+      </figure>
+
+      <figure class="reel reveal" data-reel>
+        <video class="reel__video" poster="assets/img/mascara-torso.jpg" muted loop playsinline preload="none">
+          <source src="assets/video/video-02.mp4" type="video/mp4">
+        </video>
+        <button class="reel__play" type="button" aria-label="Reproducir video">
+          <span class="reel__triangle"></span>
+        </button>
+        <figcaption class="reel__cap">Japonés — torso completo</figcaption>
+      </figure>
+
+      <figure class="reel reveal" data-reel>
+        <video class="reel__video" poster="assets/img/retrato-color.jpg" muted loop playsinline preload="none">
+          <source src="assets/video/video-03.mp4" type="video/mp4">
+        </video>
+        <button class="reel__play" type="button" aria-label="Reproducir video">
+          <span class="reel__triangle"></span>
+        </button>
+        <figcaption class="reel__cap">Retrato a color — detalle</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TRAYECTORIA ══════════ -->
+<section class="section camino" id="trayectoria">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">05</span>
+      <h2 class="head__t" data-split>Trayectoria</h2>
+    </header>
+
+    <ol class="camino__lista">
+      <li class="hito reveal">
+        <span class="hito__anio">2025</span>
+        <div>
+          <h3 class="hito__t">Pura Tinta Fest — II edición</h3>
+          <p class="hito__d">Artista nacional confirmado. Centro de Convenciones, Costa Rica. 28 de febrero al 2 de marzo.</p>
+        </div>
+      </li>
+      <li class="hito reveal">
+        <span class="hito__anio">2022</span>
+        <div>
+          <h3 class="hito__t">Conferencia Nacional de Tatuadores</h3>
+          <p class="hito__d">Bogotá, Colombia. 10 y 11 de septiembre. La convención más grande a la que he asistido en todo mi camino como tatuador.</p>
+        </div>
+      </li>
+      <li class="hito reveal">
+        <span class="hito__anio">Hoy</span>
+        <div>
+          <h3 class="hito__t">Estudio en San Pedro</h3>
+          <p class="hito__d">Realismo, black &amp; grey, retrato a color, gran formato y cover-up. Cita previa por WhatsApp.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════ TU CITA ══════════ -->
+<section class="section cita" id="cita">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">06</span>
+      <h2 class="head__t" data-split>Tu cita</h2>
+    </header>
+
+    <div class="cita__grid">
+      <p class="lead reveal">Tres cosas que hacen que la sesión salga bien.</p>
+      <ul class="cards">
+        <li class="card-min reveal"><span class="card-min__n">01</span><h3>Mayores de 18</h3><p>Traé tu identificación. Sin excepciones.</p></li>
+        <li class="card-min reveal"><span class="card-min__n">02</span><h3>Llegá descansado</h3><p>Dormí bien y comé antes. Nada de alcohol el día previo.</p></li>
+        <li class="card-min reveal"><span class="card-min__n">03</span><h3>Reserva</h3><p>La fecha se aparta con un adelanto. [Detallá acá tu política de depósito.]</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACTO ══════════ -->
+<section class="section booking" id="contacto">
+  <div class="wrap">
+    <header class="head reveal">
+      <span class="head__n">07</span>
+      <h2 class="head__t" data-split>Contame tu idea</h2>
+    </header>
+
+    <div class="booking__grid">
+      <div class="booking__info">
+        <a class="line-link reveal" data-wa href="#" data-magnetic>
+          <span class="line-link__k">WhatsApp</span>
+          <span class="line-link__v">6146 1066</span>
+          <em>&#8599;</em>
+        </a>
+        <a class="line-link reveal" href="https://www.instagram.com/jeustinpalmart/" target="_blank" rel="noopener" data-magnetic>
+          <span class="line-link__k">Instagram</span>
+          <span class="line-link__v">@jeustinpalmart</span>
+          <em>&#8599;</em>
+        </a>
+        <a class="line-link reveal" href="mailto:[correo@ejemplo.com]" data-magnetic>
+          <span class="line-link__k">Correo</span>
+          <span class="line-link__v">[correo@ejemplo.com]</span>
+          <em>&#8599;</em>
+        </a>
+        <a class="line-link reveal" href="[https://maps.google.com/?q=tu+estudio]" target="_blank" rel="noopener" data-magnetic>
+          <span class="line-link__k">Estudio</span>
+          <span class="line-link__v">San Pedro, San José, Costa Rica</span>
+          <em>&#8599;</em>
+        </a>
+        <p class="booking__hours reveal">Lunes a sábado, 9 a.m. a 6 p.m. Cita previa.</p>
+      </div>
+
+      <form class="form reveal" novalidate data-form>
+        <div class="form__row">
+          <label class="field">
+            <span class="field__label">Tu nombre</span>
+            <input class="field__control" name="nombre" type="text" autocomplete="name">
+          </label>
+          <label class="field">
+            <span class="field__label">Estilo</span>
+            <select class="field__control" name="estilo">
+              <option>Realismo</option>
+              <option>Black &amp; grey</option>
+              <option>Retrato</option>
+              <option>Gran formato</option>
+              <option>Cover-up</option>
+              <option>Todavía no sé</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="field__label">Zona y tamaño</span>
+          <input class="field__control" name="zona" type="text" placeholder="Antebrazo, unos 15 cm">
+        </label>
+
+        <label class="field">
+          <span class="field__label">Tu idea</span>
+          <textarea class="field__control" name="idea" rows="4" placeholder="Contame qué querés tatuarte y si tenés referencias."></textarea>
+        </label>
+
+        <p class="form__msg" role="status" data-form-msg></p>
+
+        <button class="btn btn--solid" type="submit" data-magnetic>Mandar por WhatsApp<em>&#8599;</em></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ CIERRE + PIE ══════════
+     Cierre cinematográfico: foto de fondo apagada, fundidos negros arriba
+     y abajo, y el pie integrado en la misma sección. -->
+<footer class="closing">
+  <div class="closing__bg" aria-hidden="true">
+    <img src="assets/img/mascara-torso.jpg" alt="" width="1440" height="1440" loading="lazy" data-parallax="0.05">
+  </div>
+  <div class="closing__fade closing__fade--top" aria-hidden="true"></div>
+  <div class="closing__fade closing__fade--bottom" aria-hidden="true"></div>
+
+  <div class="closing__inner">
+    <h2 class="closing__title reveal" data-split>Tu próxima pieza empieza con una conversación.</h2>
+    <p class="closing__lead reveal">Contame qué tenés en mente. Te digo de frente si es viable, cuánto lleva y cuánto cuesta. Sin compromiso.</p>
+
+    <div class="closing__actions reveal">
+      <a class="btn btn--glass" data-wa href="#" data-magnetic>Escribime por WhatsApp<em>&#8599;</em></a>
+      <a class="btn btn--light" href="#trabajos" data-magnetic>Ver trabajos<em>&#8599;</em></a>
+    </div>
+
+    <div class="closing__foot">
+      <p class="closing__brand">Jeustin <em>Palma</em> — Tatuador · Costa Rica</p>
+      <nav class="closing__links" aria-label="Enlaces del pie">
+        <a href="https://www.instagram.com/jeustinpalmart/" target="_blank" rel="noopener">Instagram</a>
+        <a href="[https://www.facebook.com/tu-perfil]" target="_blank" rel="noopener">Facebook</a>
+        <a href="mailto:[correo@ejemplo.com]">Correo</a>
+        <a data-wa href="#">6146 1066</a>
+      </nav>
+      <p class="closing__legal">© <span id="year">2026</span> Jeustin Palma Chacón · Solo mayores de 18 años.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ LIGHTBOX ══════════ -->
+<div class="lb" id="lb" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Galería ampliada">
+  <button class="lb__close" id="lbClose" aria-label="Cerrar">&#215;</button>
+  <button class="lb__nav lb__nav--prev" id="lbPrev" aria-label="Anterior">&#8249;</button>
+  <button class="lb__nav lb__nav--next" id="lbNext" aria-label="Siguiente">&#8250;</button>
+  <figure class="lb__figure"><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+</div>
+
+<script defer src="main.js?v=20260831"></script>
+</body>
+</html>
